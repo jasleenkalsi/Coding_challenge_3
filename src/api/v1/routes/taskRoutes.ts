@@ -5,6 +5,7 @@ import {
 	updateTaskStatus,
 	deleteTask,
 } from "../controllers/taskController";
+import { validateTask } from "../middleware/validate";
 
 const router: Router = express.Router();
 
